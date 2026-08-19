@@ -16,6 +16,6 @@ void main ()
   print("city:$city");
   print("University:$university");
   print("PI:$pi");
-  print("HI THIS IS ME $name AND I'M $age YEARS OLD. I RECENTLY  $isGraduate FROM $university. MY CGPA IS $cgpa AND BASIICALLY I'M FROM $city");
+  print("HI THIS IS ME $name AND I'M $age YEARS OLD. I RECENTLY GRADUATE $isGraduate FROM $university. MY CGPA IS $cgpa AND BASIICALLY I'M FROM $city");
 
 }
