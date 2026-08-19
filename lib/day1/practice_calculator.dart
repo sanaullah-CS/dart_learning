@@ -12,10 +12,18 @@ void main ()
   print("Student name:$name");
   print("Age:$age");
   print("CGPA:$cgpa");
+  print("Status:$status");
   print("Graduate:$isGraduate");
   print("city:$city");
   print("University:$university");
   print("PI:$pi");
-  print("HI THIS IS ME $name AND I'M $age YEARS OLD. I RECENTLY GRADUATE $isGraduate FROM $university. MY CGPA IS $cgpa AND BASIICALLY I'M FROM $city");
-
+  print("HI THIS IS ME $name AND I'M $age YEARS OLD. I RECENTLY $status $isGraduate FROM $university. MY CGPA IS $cgpa AND BASIICALLY I'M FROM $city");
+ print("CALCULATOR");
+ int a=20;
+ int b=10;
+ print(a+b);
+ print(a-b);
+ print(a*b);
+ print(a/b);
+ print(a%b);
 }
