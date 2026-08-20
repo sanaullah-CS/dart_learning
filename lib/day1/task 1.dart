@@ -3,7 +3,7 @@ void main() {
   print("----------------------------");
   print("STUDENT INFORMATION".padLeft(22));
   print("----------------------------");
-  var name = stdin.readLineSync()!;
+  var name = "SANAULLAH";
   print("enter ur name:");
   int age = 21;
   dynamic Address = "POF ESTATE HAVELIAN CANTT HOUSE NO. D-65";
