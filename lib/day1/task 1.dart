@@ -1,20 +1,40 @@
-void main()
-{
+import'dart:io';
+void main() {
   print("----------------------------");
   print("STUDENT INFORMATION".padLeft(22));
   print("----------------------------");
-  var name = "SANAULLAH";
-  int age= 21;
-  var Address="POF ESTATE HAVELIAN CANTT";
-  var city="HAVELIAN";
-  dynamic status="GRADUATE";
-  int phone= 923359587236;
-  var skills = "FLUTTER EXPERT, PYTHON, C++, JAVA SCRIPT, AI , MACHINE LEARNING, etc.";
+  var name = stdin.readLineSync()!;
+  print("enter ur name:");
+  int age = 21;
+  dynamic Address = "POF ESTATE HAVELIAN CANTT HOUSE NO. D-65";
+  var city = "HAVELIAN";
+  dynamic status = "GRADUATE";
+  bool isgraduate = true;
+  int phone = 923359587236;
+  var skills = "FLUTTER EXPERT, PYTHON, C++, JAVA SCRIPT, AI ,MACHINE LEARNING, etc.";
   print("STUDENT NAME IS : $name");
   print("HOW OLD IS HE? $age");
   print("ADDRESS: $Address");
   print("CITY:$city");
   print("STATUS:$status");
+  print("GRADUATE ? $isgraduate");
   print("CELL no.:$phone");
   print("OVERALL SKILLS:$skills");
+  print("----------------------------");
+  print("ABOUT ME".padLeft(18));
+  print("----------------------------");
+  print(
+      "MY NAME IS $name. I'M' $age YEARS OLD. I LIVE IN $Address.THIS IS NEAR $city . I CURRENTLY $status FROM AUST IN SPRING 2026 $isgraduate. MY CELL NO. IS $phone. MY SKILLS ARE $skills.");
+  print("----------------------------");
+  print("CALCULATOR".padLeft(18));
+  print("----------------------------");
+  var num1=20;
+  var num2=25;
+  print("NUM 1 is : $num1");
+  print("NUM 2 is: $num2");
+  print("SUM IS: ${num1+num2} AND SUBTRACT IS ${num1-num2} AND MULTIPLICATION IS ${num1*num2} AND DIVIDE IS ${num1/num2} AND REMINDER IS ${num1%num2}");
+  //print(num2-num1);
+//print(num1*num2);
+//print(num1/num2);
+//print(num1%num2);
 }
