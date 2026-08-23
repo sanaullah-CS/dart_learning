@@ -9,7 +9,7 @@ void main ()
   dynamic status= "Graduate";
   final university ="AUST";
   const pi= 3.1429378;
-  print("Student name:$name");
+  print("Student Name:$name");
   print("Age:$age");
   print("CGPA:$cgpa");
   print("Status:$status");
