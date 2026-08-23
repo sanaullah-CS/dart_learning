@@ -33,8 +33,8 @@ void main() {
   print("NUM 1 is : $num1");
   print("NUM 2 is: $num2");
   print("SUM IS: ${num1+num2} AND SUBTRACT IS ${num1-num2} AND MULTIPLICATION IS ${num1*num2} AND DIVIDE IS ${num1/num2} AND REMINDER IS ${num1%num2}");
-  //print(num2-num1);
-//print(num1*num2);
-//print(num1/num2);
-//print(num1%num2);
+  print(num2-num1);
+print(num1*num2);
+print(num1/num2);
+print(num1%num2);
 }
