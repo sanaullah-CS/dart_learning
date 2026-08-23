@@ -1,18 +1,18 @@
 import 'dart:io';
 void main()
 {
-  int age=25;
-  print(age==25);
-  print(age>25);
-  print(age!= 25);
-  print(age<25);
-  print(age<=25);
-  print(age>=25);
-  if(age<25)
+  var marks=86;
+  if(marks<=15)
   {
-    print("You are an adult.");
+    print("D grade");
   }else
+  if (marks<76)
   {
-print("U are not an adult");
-}
+print("C grade");
+} else
+  if(marks>=89){
+    print("A+ Grade toper");
+  }else {
+    print("Fail");
+  }
 }
