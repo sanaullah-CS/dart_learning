@@ -10,8 +10,10 @@ void main()
   {
 print("C grade");
 } else
-  if(marks>=89){
+  if(marks>=86){
     print("A+ Grade toper");
+    print("u successfuly move to next class");
+    print("congratulation sana");
   }else {
     print("Fail");
   }
