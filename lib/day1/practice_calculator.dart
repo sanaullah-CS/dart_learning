@@ -3,7 +3,7 @@ void main ()
   print("Hello This is Students record");
   String name= "SANAULLAH AWAN";
   int age = 22;
-  double cgpa=3.41;
+  double cgpa= 3.41;
   bool isGraduate = true;
   var city = "Abbottabad";
   dynamic status= "Graduate";
