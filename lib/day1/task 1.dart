@@ -13,7 +13,7 @@ void main() {
   int phone = 923359587236;
   var skills = "FLUTTER EXPERT, PYTHON, C++, JAVA SCRIPT, AI ,MACHINE LEARNING, etc.";
   print("STUDENT NAME IS : $name");
-  print("HOW OLD IS HE? $age");
+  print("HOW OLD IS HE? His age is:$age");
   print("ADDRESS: $Address");
   print("CITY:$city");
   print("STATUS:$status");
