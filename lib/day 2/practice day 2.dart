@@ -1,7 +1,7 @@
 import 'dart:io';
 void main()
 {
-var admin=false;
+var admin=true;
 var manager=false;
 print("login page");
 print("Apply for Access");
