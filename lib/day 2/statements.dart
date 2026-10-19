@@ -3,7 +3,7 @@ void main() {
   print("enter ur age:");
   int age = int.parse(stdin.readLineSync()!);
   var Hascard = true;
-  if (age >= 26) {
+  if (age < 27) {
     print("U are eligible");
     if (Hascard) {
       print("u have a student card");
@@ -36,3 +36,4 @@ void main() {
     print("THANK U");
   }
 }
+

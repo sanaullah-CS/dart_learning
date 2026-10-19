@@ -1,21 +1,25 @@
-import 'dart:io';
 void main()
-
 {
-  int a = 7 ;
-  print(a);
-  BigInt longvalue;
-  longvalue = BigInt.parse('5879654166666578451236985236547812365478954123025874102366987410236547896987042');
-  num percenatge = 33.65;
-bool islogin = false;
-
-  print(longvalue);
+  //ternary operator//
+  /*int a=50;
+  int b= 80;
+  (a>b)? print("a is greater then b"): print("a is less then b");*/
+  //switch statment//
+  int a = 6;
+  switch (a)
+  {
+    case 10 :
+      print("value is greater then 10");
+    break;
+    case 20: print("value is gretaer then 20");
+    break;
+    case 03 : print("value is less then 50");
+    break;
+    case 56 : print("value is greater then 50");
+    break;
+    default: print("value is less then 100");
   }
-
-class Human //classs human
-
-    {
-
-  Human();
-
-    }
+  int b=2;
+  int l =5;
+  print('Area of rectangle = ${l*b}');
+}
