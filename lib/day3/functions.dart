@@ -1,19 +1,27 @@
+//function of method
+//syntax
+//area of rectangle
+//required parameter
 void main(){
-  reactArea();
-  reactPeremter();
+  reactArea(10,7);
+  int p= reactPeremter();
+  print("The permimeter of Rectangle is $p");
 }
-void reactArea(){
+/*void reactArea(){
   int l=5;
   int b=10;
   int a =l*b;
-  print("THE ARE OF RECTANGLE IS:$a");
+  print("THE AREA OF RECTANGLE IS:$a");
+}*/
+//required parameter (10.7)|| (int l , int b)
+void reactArea(int l,int b)
+{
+  int a =l*b;
+  print("THE AREA OF RECTANGLE IS:$a");
 }
-void reactPeremter(){
+int reactPeremter(){
   int i=4;
   int j=10;
   int p=2*(i+j);
-  print("The perameter of rectangle is:$p");
+  return p;
 }
-/*return type func_name(){
-
-}*/
