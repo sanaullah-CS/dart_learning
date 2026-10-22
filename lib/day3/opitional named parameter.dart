@@ -9,7 +9,7 @@ void main()
     print(name);
     print(age);
   }
-  //ya bhi aik optional named parameter he hy but is man ham na uper "FOOD" man nai dya ha data use jiski wajah se wo ab NULL show krway ga output man
+  //ya bhi aik optional named parame ter he hy but is man ham na uper "FOOD" man nai dya ha data use jiski wajah se wo ab NULL show krway ga output man
   food({String? name, String? color})
   {
     //ab aik man ham null ky sath khuch add krdety hyn jis se output a jay hamaraa null ki jagah parr
