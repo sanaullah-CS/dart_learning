@@ -3,7 +3,8 @@
 //area of rectangle
 //required parameter
 void main(){
-  reactArea(10,7);
+  var a= reactArea(10,7);
+  print("THE AREA OF RECTANGLE IS:$a");
   int p= reactPeremter();
   print("The permimeter of Rectangle is $p");
 }
@@ -14,10 +15,10 @@ void main(){
   print("THE AREA OF RECTANGLE IS:$a");
 }*/
 //required parameter (10.7)|| (int l , int b)
-void reactArea(int l,int b)
+int reactArea(int l,int b)
 {
   int a =l*b;
-  print("THE AREA OF RECTANGLE IS:$a");
+  return a;
 }
 int reactPeremter(){
   int i=4;
