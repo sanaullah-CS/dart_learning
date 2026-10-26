@@ -33,7 +33,7 @@ class Exceptiondemo extends StatelessWidget {
       print("number can't divide by zero");
     }
     //ab finally clause kiya hota ha
-    // finaally clause try catch ky sath he lagta ha jab bhi try man error ayga tab wo cath man e exception man jayga then nechy finnaly clause man jo khuch likha wa hoga wo run ho jay ga easily
+    // finaally clause try catch ky sath he lagta h
     //ab example lelety hyn
 try{
 int a=10~/0;
@@ -42,9 +42,12 @@ print("value of a is:$a");
 catch(e) {
   print(e);
 }
+//finally ab lag gya ha nechyy ab jab bhi uper error ay ya na ay tab bhi finally clause run hoga
+// or agar try man erro ata ha to tab wo catch man jayga or finally clause run ho jay ga
 finally{
   print("THIS IS FINALLY CLAUSE");
 }
+//iska use is lliye hota ha jab bhi kabhi kabhi hamyn connection close krny parhaty hyn to wo ham finally man close krty hyn
 return Container();
   }
 }
