@@ -32,6 +32,19 @@ class Exceptiondemo extends StatelessWidget {
     on IntegerDivisionByZeroException{
       print("number can't divide by zero");
     }
-    return Container();
+    //ab finally clause kiya hota ha
+    // finaally clause try catch ky sath he lagta ha jab bhi try man error ayga tab wo cath man e exception man jayga then nechy finnaly clause man jo khuch likha wa hoga wo run ho jay ga easily
+    //ab example lelety hyn
+try{
+int a=10~/0;
+print("value of a is:$a");
+}
+catch(e) {
+  print(e);
+}
+finally{
+  print("THIS IS FINALLY CLAUSE");
+}
+return Container();
   }
 }
